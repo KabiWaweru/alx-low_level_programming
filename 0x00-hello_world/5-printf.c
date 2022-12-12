@@ -3,7 +3,7 @@
 /**
  *main - entry point, prints out string using printf
  *
- *return - 0 if successful, 1 if error
+ *Return: 0 if successful, 1 if error
  */
 
 int main(void)
