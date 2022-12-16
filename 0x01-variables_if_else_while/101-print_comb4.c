@@ -21,7 +21,7 @@ int main(void)
 				putchar(n);
 				putchar(m);
 				putchar(p);
-				if (p == '7')
+				if (n == '7')
 				{
 					break;
 				}
