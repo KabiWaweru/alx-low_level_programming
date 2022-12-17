@@ -21,7 +21,7 @@ int main(void)
 			{
 				for (r = '0'; r <= '9'; r++)
 				{
-					if (p > r)
+					if (m + p > r + q)
 					{
 						continue;
 					}
