@@ -21,6 +21,10 @@ int main(void)
 			{
 				for (r = '0'; r <= '9'; r++)
 				{
+					if ((p > r) || (p == r))
+					{
+						continue;
+					}
 					putchar(m);
 					putchar(p);
 					putchar(' ');
