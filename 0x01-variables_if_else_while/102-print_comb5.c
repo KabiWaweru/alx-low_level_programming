@@ -21,7 +21,11 @@ int main(void)
 			{
 				for (r = '0'; r <= '9'; r++)
 				{
-					if ((p > r) || (p == r))
+					if (p > r)
+					{
+						continue;
+					}
+					if((m == q) && (p == r))
 					{
 						continue;
 					}
