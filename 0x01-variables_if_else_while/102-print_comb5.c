@@ -25,7 +25,7 @@ int main(void)
 					{
 						continue;
 					}
-					if((m == q) && (p == r))
+					if ((m == q) && (p == r))
 					{
 						continue;
 					}
@@ -34,7 +34,7 @@ int main(void)
 					putchar(' ');
 					putchar(q);
 					putchar(r);
-					if ((r == 99) && (q == 99) && (r == 99))
+					if ((m == '9') && (p == '8') && (q == '9') && (r == '9'))
 					{
 						break;
 					}
