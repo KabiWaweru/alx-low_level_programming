@@ -1,5 +1,4 @@
 #include <string.h>
-#include <unistd.h>
 #include "main.h"
 
 /**
@@ -16,15 +15,10 @@ int main(void)
 	int n;
 	char string[] = "_putchar";
 
-	for (n = 0; strlen(string); n++)
+	for (n = 0; n < (int)strlen(string); n++)
 	{
 		_putchar(string[n]);
 	}
+	_putchar('\n');
 	return (0);
 }
-
-int _putchar(char c)
-{
-        return (write(1, &c, 1));
-}
-
