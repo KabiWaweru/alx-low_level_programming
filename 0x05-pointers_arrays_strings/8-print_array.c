@@ -15,13 +15,12 @@ void print_array(int *a, int n)
 	{
 		if (m != n - 1)
 		{
-			printf("%d, ",*a);
+			printf("%d, ", *a);
 		}
 		else
 		{
-			printf("%d",*a);
+			printf("%d", *a);
 		}
-		
 	}
 	putchar('\n');
 }
