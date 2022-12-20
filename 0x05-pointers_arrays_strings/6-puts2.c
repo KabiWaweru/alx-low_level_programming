@@ -12,7 +12,7 @@ void puts2(char* str)
 
 	for ( ; *str; str++)
 	{
-		count ++;
+		count++;
 		if (count % 2 == 0)
 		{
 
