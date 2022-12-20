@@ -4,7 +4,7 @@
 /**
  * main - This function prints _putchar
  *
- * _putchar - The prunt function
+ * _putchar - The print function
  *
  * Return: 0, if successful
  */
