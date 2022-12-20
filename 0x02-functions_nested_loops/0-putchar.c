@@ -5,7 +5,6 @@
  * main - This function prints _putchar
  *
  * _putchar - The prunt function
- * @c: character to be printed
  *
  * Return: 0, if successful
  */
