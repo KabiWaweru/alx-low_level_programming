@@ -6,7 +6,7 @@
  * @str: the input string
  */
 
-void puts2(char* str)
+void puts2(char *str)
 {
 	int count = 0;
 
