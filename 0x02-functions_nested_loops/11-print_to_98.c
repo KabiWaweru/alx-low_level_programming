@@ -79,7 +79,7 @@ void less_than_98(int n)
 				print_greater_than_100(p);
 			}
 		}
-		else if ((m > 0) && (m <= 9))
+		else if ((m >= 0) && (m <= 9))
 		{
 			_putchar('0' + m);
 		}
@@ -116,7 +116,7 @@ void print_greater_than_10(int m)
 void print_greater_than_100(int m)
 {
 	_putchar('0' + m / 100);
-	_putchar('0' + (m / 100) / 10);
-	_putchar('0' + (m / 100) % 10);
+	_putchar('0' + (m % 100) / 10);
+	_putchar('0' + (m % 100) % 10);
 
 }
