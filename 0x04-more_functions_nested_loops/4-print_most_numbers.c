@@ -3,7 +3,6 @@
 /**
  * print_most_numbers - prints 0 - 9 save 2 & 4
  *
- * Return: null
  */
 
 void print_most_numbers(void)

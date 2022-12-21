@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * _isdigit - checks whether an input is a digit or not
