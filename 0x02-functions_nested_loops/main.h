@@ -15,4 +15,6 @@ int add(int, int);
 void print_to_98(int n);
 void less_than_98(int n);
 void greater_than_98(int n);
+void print_greater_than_10(int n);
+void print_greater_than_100(int n);
 #endif
